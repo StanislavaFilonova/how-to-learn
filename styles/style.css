@@ -140,6 +140,7 @@
 
 .two-columns__span-accent {
   font-weight: bold;
+  margin: 0;
 }
 
 .digits {
@@ -323,6 +324,7 @@ text-align: center;
   bottom: 0;
   padding-bottom: 18px;
   padding-top: 18px;
+  margin: 0;
 }
 
 .footer__column_position {
