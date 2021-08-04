@@ -122,6 +122,7 @@
   font-size: 24px;
   font-weight: normal;
 }
+
 .two-columns__paragraph {
   margin: 0;
 }
@@ -139,6 +140,7 @@
 .digits {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
 }
 
 .section-title_position {
@@ -159,6 +161,12 @@
   margin: 0;
   text-align: center;
   align-self: center;
+}
+
+.section-subtitle_text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .table {
@@ -198,6 +206,10 @@
   flex-direction: column;
   background: url('../images/feynman.png') bottom left/867px 637px no-repeat;
   background-color: #f2f2f2;
+  margin-top: 100px;
+  display: flex;
+  position: relative;
+  margin: auto;
 }
 
 .feynman__title {
@@ -232,6 +244,9 @@
   top: 50%;
   right: 48px;
   position: absolute;
+  text-decoration: none;
+  color: #2f80ed;
+  cursor: pointer;
 }
 
 .kaufman {
@@ -252,6 +267,7 @@
 .section-title_theme_dark {
   margin: 90px 0 20px 0;
 }
+
 .section-subtitle_theme_dark {
   margin: 0;
   text-align: center;
@@ -266,6 +282,13 @@
   z-index: 2;
 }
 
+.table__text_theme_dark {
+  justify-content: space-between;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 .kaufman__triangle {
   background-image: url('../images/kaufman-triangle.svg');
   width: 877px;
@@ -274,7 +297,7 @@
   position: absolute;
 }
 
-.footer_position {
+.footer {
   min-height: 350px;
   display: flex;
   justify-content: center;
@@ -292,16 +315,18 @@
   margin-top: 60px;
 }
 
-.footer__column_content_copyright {
+.footer__column {
   display: flex;
   flex-direction: column;
-  flex-basis: 711px;
   justify-content: space-between;
   box-sizing: border-box;
 }
 
+.footer__column_content_copyright {
+  flex-basis: 711px;
+}
+
 .logo_place_footer {
-  width: 183px;
   height: 35px;
   background-image:url('../images/logo_place_footer.svg');
 }
@@ -313,33 +338,27 @@
   margin: 0;
 }
 
-.footer__column_position {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column-links {
-  margin: 20px 0 16px 0;
-  padding: 0;
-}
 
 .footer__column-heading {
   font-weight: bold;
-}
-
-.footer__column_text_size {
   font-size: 18px;
   line-height: 30px;
   margin: 0;
 }
 
+.footer__column-links {
+  margin: 20px 0 16px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .footer__column-link {
+  margin: 0;
   text-decoration: none;
   color: white;
+  font-size: 18px;
+  line-height: 30px;
   font-weight: normal;
-  margin-left: 10px;
-  margin: 0;
-  padding-bottom: 10px;
 }
 
 .footer__social-icon {
