@@ -5,18 +5,14 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-
-.header_position {
-  display: flex;
-  position: relative;
-  background-color: #f2f2f2;
-  margin: auto;
-}
-
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
+  position: relative;
+  background-color: #f2f2f2;
+  margin: auto;
 }
 
 .logo {
@@ -50,9 +46,6 @@
   margin: 0;
   left: 64px;
   position: absolute;
-}
-
-.header__subtitle_text {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -83,13 +76,9 @@
   z-index: 0;
 }
 
-.content_position {
-  margin-top: 100px;
-}
-
 .description {
   margin: auto;
-  display: flex;
+  margin-top: 100px;
 }
 
 .two-columns {
@@ -106,18 +95,12 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
-
-.two-columns__brief_color {
   color: #2f80ed;
 }
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-}
-
-.two-columms__main-text_style {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -140,12 +123,6 @@
 .digits {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
-}
-
-.section-title_position {
-  margin: 0 0 20px 0;
-  width: 60%;
 }
 
 .section-title {
@@ -154,6 +131,8 @@
   font-weight: bold;
   text-align: center;
   align-self: center;
+  margin: 100px 0 20px 0;
+  width: 60%;
 }
 
 .section-subtitle {
@@ -161,9 +140,6 @@
   margin: 0;
   text-align: center;
   align-self: center;
-}
-
-.section-subtitle_text {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -171,9 +147,6 @@
 
 .table {
   width: 1100px;
-}
-
-.table_flex {
   display: flex;
   flex-flow:row wrap;
   justify-content: space-between;
@@ -195,10 +168,10 @@
 
 .table__text {
   margin: 0;
-}
-
-.table__text_position {
   margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .feynman {
@@ -213,30 +186,21 @@
 
 .feynman__title {
   width: 648px;
-}
-
-.feynman__title_position {
   align-self: center;
   margin: 100px 0 70px 0;
-}
-
-.feynman__title_style {
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
   text-align: center;
 }
 
-.feynman__subtitle_position {
+.feynman__subtitle {
   margin: 0;
   text-align: center;
   align-self: center;
-}
-
-.feynman__subtitle_text-style {
   line-height: 51px;
   font-size: 36px;
-  font-weight:normal normal;
+  font-weight: normal;
 }
 
 .feynman__link {
@@ -246,6 +210,9 @@
   text-decoration: none;
   color: #2f80ed;
   cursor: pointer;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
 }
 
 .kaufman {
@@ -254,34 +221,38 @@
   flex-wrap: wrap;
   position: relative;
   color: white;
-}
-
-.kaufman_style {
   background-color: #1f1f1f;
   overflow: hidden;
   margin: 0;
   padding: 0;
+  display: flex;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
-  margin: 90px 0 20px 0;
+  margin-top: 90px;
+  z-index: 3;
 }
 
 .section-subtitle_theme_dark {
-  margin: 0;
   text-align: center;
   align-self: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  z-index: 3;
 }
 
 .table_theme_dark {
   margin-bottom: 90px;
+  z-index: 3;
 }
 
 .table__cell_theme_dark {
   width: 200px;
   margin-right: 0;
   margin-top: 80px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .table__text_theme_dark {
@@ -292,13 +263,15 @@
 }
 
 .kaufman__triangle {
-  background-image: url('../images/kaufman-triangle.svg');
-  width: 877px;
+  background: url('../images/kaufman-triangle.svg');
   height: 877px;
+  width: 877px;
+  background-size: cover;
   right: -210px;
   position: absolute;
   background-repeat: no-repeat;
   background-position: top;
+  z-index: 2;
 }
 
 .footer {
@@ -340,6 +313,9 @@
   padding-bottom: 18px;
   padding-top: 18px;
   margin: 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column-heading {
@@ -362,6 +338,14 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
+}
+
+.footer__column_content_info {
+  justify-content: flex-start;
+}
+
+.footer__column_content_social {
+  justify-content: flex-start;
 }
 
 .footer__social-icon {
