@@ -5,4 +5,11 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
+  opacity: 1;
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
+  color:cornflowerblue;
+  transition: 1s ease-in;
 }

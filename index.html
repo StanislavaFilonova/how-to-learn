@@ -6,7 +6,7 @@
     <meta name="description" content="Первый проект на Яндекс-Практикуме" />
     <meta name="keywords" content="HTML, CSS" />
     <meta name="author" content="Филонова Станислава" />
-    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="../how_to_learn/vendor/normalize.css" />
     <link rel="stylesheet" href="../how_to_learn/index.css" />
     <title>Научиться учиться</title>
   </head>
@@ -14,15 +14,15 @@
   <body>
     <div class="page">
       <header class="header">
-        <img src="./images/logo_place_header.svg" alt="Яндекс Практикум" class="logo logo_place_header"/>
+        <img src="../how_to_learn/blocks/logo/_place/logo_place_header.svg" alt="Яндекс Практикум" class="logo logo_place_header"/>
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
           <a href="#" class="header__link" target="_blank"> Узнать &rarr;</a>
         </p>
-        <img src="./images/header-image.png" alt="Грустный мальчик и собака" class="header__main-illustration"/>
-        <div class="header__square-pic"></div>
+        <img src="../how_to_learn/blocks/header/__main-illustration/header-image.png" alt="Грустный мальчик и собака" class="header__main-illustration"/>
+        <div class="header__square-pic rotation"></div>
       </header>
 
       <main class="content">
@@ -57,32 +57,76 @@
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
           <div class="cards">
             <ul class="cards__item">
-              <li><img class="cards__image" src="../how_to_learn/sprint-2-sources/images_sprint-2/cards-attention.png" alt="Книга"></img></li>
+              <li><img class="cards__image" src="../how_to_learn/blocks/techniques/cards-attention.png" alt="Книга"></li>
               <li><h3 class="cards__title">Два вида внимания</h3></li>
               <li><p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p></li>
             </ul>
             <ul class="cards__item">
-              <li><img class="cards__image" src="../how_to_learn/sprint-2-sources/images_sprint-2/cards-recall.png" alt="Статуя"></img></li>
+              <li><img class="cards__image" src="../how_to_learn/blocks/techniques/cards-recall.png" alt="Статуя"></li>
               <li><h3 class="cards__title">Recall</h3></li>
               <li><p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p></li>
             </ul>
             <ul class="cards__item">
-              <li><img class="cards__image" src="../how_to_learn/sprint-2-sources/images_sprint-2/cards-interliving.png" alt=" Атриум"></img></li>
-              <ul><h3 class="cards__title">Интерливинг</h3></ul>
+              <li><img class="cards__image" src="../how_to_learn/blocks/techniques/cards-interliving.png" alt=" Атриум"></li>
+              <li><h3 class="cards__title">Интерливинг</h3></li>
               <li><p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p></li>
             </ul>
             <ul class="cards__item">
-              <li><img class="cards__image" src="../how_to_learn/sprint-2-sources/images_sprint-2/cards-question.png" alt="Человек в пустом пространстве"></img></li>
+              <li><img class="cards__image" src="../how_to_learn/blocks/techniques/cards-question.png" alt="Человек в пустом пространстве"></li>
               <li><h3 class="cards__title">Вопросы</h3></li>
               <li><p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p></li>
             </ul>
             <ul class="cards__item">
-              <li><img class="cards__image" src="../how_to_learn/sprint-2-sources/images_sprint-2/cards-competence.png" alt="Стопка книг в руке"></img></li>
+              <li><img class="cards__image" src="../how_to_learn/blocks/techniques/cards-competence.png" alt="Стопка книг в руке"></li>
               <li><h3 class="cards__title">Иллюзия компетентности</h3></li>
               <li><p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p></li>
             </ul>
           </div>
         </section>
+
+        <section class="video">
+          <h2 class="section-title">
+            Видео на TED
+          </h2>
+          <p class="section-subtitle">
+            Для тех, кто любит прокрастинировать
+          </p>
+          <div class="video__iframes">
+            <iframe class="video__iframe" id="video" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video__iframe" id="video2" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </section>
+
+        <section class="oakley">
+          <div class="two-columns">
+            <h2 class="two-columns__brief">
+              История Барбары Оакли.
+            </h2>
+            <div class="two-columns__main-text">
+              <p class="two-columns__paragraph">
+                С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием,
+                 причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку,
+                 да так успешно, что её выдвинули в командиры.
+                 Но для продвижения по службе нужно было сдавать математику.
+                 И тогда Барбара придумала свой подход к точным наукам.
+                 Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже,
+                 чем у тех, кому всё ясно с первого взгляда.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="feynman">
+          <h2 class="feynman__title">
+            Метод Фейнмана
+          </h2>
+          <h3 class="feynman__subtitle">
+            Выучить и не забыть.
+            <a href="#" class="feynman__link" target="_blank">
+              Подробнее &rarr;</a>
+          </h3>
+        </section>
+
         <section class="digits">
           <h2 class="section-title">
             Цифры и факты
@@ -147,19 +191,12 @@
           </div>
         </section>
 
-        <section class="feynman">
-          <h2 class="feynman__title">
-            Метод Фейнмана
-          </h2>
-          <h3 class="feynman__subtitle">
-            Выучить и не забыть.
-            <a href="#" class="feynman__link" target="_blank">
-              Подробнее &rarr;</a>
-          </h3>
+        <section class="khan">
+
         </section>
 
         <section class="kaufman">
-          <div class="kaufman__triangle"></div>
+          <div class="kaufman__triangle rotation"></div>
           <h2 class="section-title section-title_theme_dark">
             Принципы обучения
           </h2>
@@ -281,15 +318,15 @@
             </h3>
             <ul class="footer__column-links">
               <li><a href="#" class="footer__column-link" target="_blank">
-                <img src="./images/facebook_color_white.svg" alt="Фэйсбук" class="footer__social-icon"/>
+                <img src="../how_to_learn/blocks/footer/__social-icon/facebook_color_white.svg" alt="Фэйсбук" class="footer__social-icon"/>
                 Facebook
               </a></li>
               <li> <a href="#" class="footer__column-link" target="_blank">
-                <img src="./images/vk_color_white.svg" alt="Вконтакте" class="footer__social-icon"/>
+                <img src="../how_to_learn/blocks/footer/__social-icon/vk_color_white.svg" alt="Вконтакте" class="footer__social-icon"/>
                 Вконтакте
               </a></li>
               <li><a href="#" class="footer__column-link" target="_blank">
-                <img src="./images/instagram_color_white.svg" alt="Инстаграм" class="footer__social-icon"/>
+                <img src="../how_to_learn/blocks/footer/__social-icon/instagram_color_white.svg" alt="Инстаграм" class="footer__social-icon"/>
                 Instagram
               </a></li>
             </ul>

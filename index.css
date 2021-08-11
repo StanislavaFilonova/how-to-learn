@@ -1,3 +1,4 @@
+@import url(../how_to_learn/vendor/normalize.css);
 @import url('../how_to_learn/blocks/page/page.css');
 @import url('../how_to_learn/blocks/header/header.css');
 @import url('../how_to_learn/blocks/logo/logo.css');
@@ -7,12 +8,27 @@
 @import url('../how_to_learn/blocks/header/__link/header__link.css');
 @import url('../how_to_learn/blocks/header/__main-illustration/header__main-illustration.css');
 @import url('../how_to_learn/blocks/header/__square-pic/header__square-pic.css');
+@import url('../how_to_learn/blocks/rotation/rotation.css');
 @import url('../how_to_learn/blocks/description/description.css');
 @import url('../how_to_learn/blocks/two-columns/two-columns.css');
 @import url('../how_to_learn/blocks/two-columns/__brief/two-columns__brief.css');
 @import url('../how_to_learn/blocks/two-columns/__main-text/two-columns__main-text.css');
 @import url('../how_to_learn/blocks/two-columns/__paragraph/two-columns__paragraph.css');
 @import url('../how_to_learn/blocks/two-columns/__span-accent/two-columns__span-accent.css');
+@import url('../how_to_learn/blocks/techniques/techniques.css');
+@import url('../how_to_learn/blocks/cards/cards.css');
+@import url('../how_to_learn/blocks/cards/__item/cards__item.css');
+@import url('../how_to_learn/blocks/cards/__image/cards__image.css');
+@import url('../how_to_learn/blocks/cards/__title/cards__title.css');
+@import url('../how_to_learn/blocks/cards/__description/cards__description.css');
+@import url('../how_to_learn/blocks/video/video.css');
+@import url('../how_to_learn/blocks/video/__iframes/video__iframes.css');
+@import url('../how_to_learn/blocks/video/__iframe/video__iframe.css');
+@import url('../how_to_learn/blocks/oakley/oakley.css');
+@import url('../how_to_learn/blocks/feynman/feynman.css');
+@import url('../how_to_learn/blocks/feynman/__title/feynman__title.css');
+@import url('../how_to_learn/blocks/feynman/__subtitle/feynman__subtitle.css');
+@import url('../how_to_learn/blocks/feynman/__link/feynman__link.css');
 @import url('../how_to_learn/blocks/digits/digits.css');
 @import url('../how_to_learn/blocks/section-title/section-title.css');
 @import url('../how_to_learn/blocks/section-subtitle/section-subtitle.css');
@@ -20,10 +36,7 @@
 @import url('../how_to_learn/blocks/table/__cell/table__cell.css');
 @import url('../how_to_learn/blocks/table/__heading/table__heading.css');
 @import url('../how_to_learn/blocks/table/__text/table__text.css');
-@import url('../how_to_learn/blocks/feynman/feynman.css');
-@import url('../how_to_learn/blocks/feynman/__title/feynman__title.css');
-@import url('../how_to_learn/blocks/feynman/__subtitle/feynman__subtitle.css');
-@import url('../how_to_learn/blocks/feynman/__link/feynman__link.css');
+@import url('../how_to_learn/blocks/khan/khan.css');
 @import url('../how_to_learn/blocks/kaufman/kaufman.css');
 @import url('../how_to_learn/blocks/section-title/_theme/section-title_theme_dark.css');
 @import url('../how_to_learn/blocks/section-subtitle/_theme/section-subtitle_theme_dark.css');
@@ -43,9 +56,4 @@
 @import url('../how_to_learn/blocks/footer/__column/_content/footer__column_content_info.css');
 @import url('../how_to_learn/blocks/footer/__column/_content/footer__column_content_social.css');
 @import url('../how_to_learn/blocks/footer/__social-icon/footer__social-icon.css');
-@import url('../how_to_learn/blocks/techniques/techniques.css');
-@import url('../how_to_learn/blocks/cards/cards.css');
-@import url('../how_to_learn/blocks/cards/__item/cards__item.css');
-@import url('../how_to_learn/blocks/cards/__image/cards__image.css');
-@import url('../how_to_learn/blocks/cards/__title/cards__title.css');
-@import url('../how_to_learn/blocks/cards/__description/cards__description.css');
+
