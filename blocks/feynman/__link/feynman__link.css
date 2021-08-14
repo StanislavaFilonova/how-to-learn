@@ -9,10 +9,10 @@
   font-size: 36px;
   font-weight: normal;
   opacity: 1;
+  transition: 1s ease-in;
 }
 
 .feynman__link:hover {
-  transition: 1s ease-in;
   color:turquoise;
   opacity: 0.5;
 }

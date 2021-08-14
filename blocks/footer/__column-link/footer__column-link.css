@@ -6,10 +6,10 @@
   line-height: 30px;
   font-weight: normal;
   opacity: 1;
+  transition: 1s ease-in;
 }
 
 .footer__column-link:hover {
   opacity: 0.5;
   color:cornflowerblue;
-  transition: 1s ease-in;
 }

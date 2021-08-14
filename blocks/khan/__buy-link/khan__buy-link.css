@@ -6,10 +6,11 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
+  transition: 1s ease-in;
+  align-self: flex-start;
 }
 
 .khan__buy-link:hover {
   opacity: 0.5;
-  transition: 1s ease-in;
   color:turquoise;
 }
