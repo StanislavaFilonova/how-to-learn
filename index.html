@@ -22,7 +22,10 @@
           <a href="#" class="header__link" target="_blank"> Узнать &rarr;</a>
         </p>
         <img src="../how_to_learn/blocks/header/__main-illustration/header-image.png" alt="Грустный мальчик и собака" class="header__main-illustration"/>
-        <div class="header__square-pic rotation"></div>
+        <div class="header__square-pic rotation"></div> <!--Я не знаю, правильное ли использование миксов здесь.
+          Прочитала много статей по поводу миксов в БЭМ.
+          В общем смысл поняла. Хотела создать такой класс: page__rotation. Но получается не по брифу.
+        Мы должны создать БЭМ блок rotation, а не элемент блока page.-->
       </header>
 
       <main class="content">
@@ -192,7 +195,21 @@
         </section>
 
         <section class="khan">
-
+          <div class="khan__container">
+            <h2 class="khan__author">Салман Хан</h2>
+            <h3 class="khan__title">Весь мир — школа</h3>
+            <p class="khan__quote">
+              Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
+              Книгу «Весь мир — школа» нужно прочитать всем,
+              кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания,
+               которые приносят успех в школе, карьере и жизни.</p>
+            <p class="khan__quote-author">Джордж Лукас</p>
+            <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+            <div class="khan__book-container">
+            <img src="../how_to_learn/blocks/khan/khan-book.jpg" alt="Обложка книги Салман Хана Весь мир - школа" class="khan__book-pic"/>
+            <a href="#" class="khan__buy-link" target="_blank">Купить книгу &rarr;</a>
+            </div>
+          </div>
         </section>
 
         <section class="kaufman">
@@ -284,6 +301,16 @@
                 Уделяйте внимание количеству и скорости.
               </p>
             </div>
+          </div>
+        </section>
+        <section class="resources">
+          <h2 class="section-title">Полезные ресурсы</h2>
+          <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+          <div class='resources__logo-zone'>
+            <img src="../how_to_learn/blocks/resources/__logo/resources-arzamas.svg" alt="Арзамас" class="resources__logo"/>
+            <img src="../how_to_learn/blocks/resources/__logo/resources-n1.svg" alt="Н-один" class="resources__logo"/>
+            <img src="../how_to_learn/blocks/resources/__logo/resources-strelka.svg" alt="Стрелка" class="resources__logo"/>
+            <img src="../how_to_learn/blocks/resources/__logo/resources-polka.svg" alt="Полка" class="resources__logo"/>
           </div>
         </section>
       </main>
